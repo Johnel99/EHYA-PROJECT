@@ -3,4 +3,243 @@
     padding: 0;
     box-sizing: 
 }
-git :window-inactive
+.sponsors{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto
+}
+.postImage img{
+    width: 100%
+}
+.postImage{
+    width: 40%;
+}
+.postText{
+    width: 45%;
+}
+.postText h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    color: #034D82;
+    width: 70%;
+}
+.postText p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.30000001192092896px;
+color: #90A3B4;
+}
+.postText a{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.83px;
+color: #04AADD;
+}
+.iphone{
+    position: absolute;
+}
+.arrow{
+    position: relative;
+    z-index: -2;
+}
+.schedule{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    gap: 4rem;
+}
+.scheduleText{
+    width: 45%;
+}
+.scheduleText h3{
+    font-family: DM Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0.30000001192092896px;
+
+}
+
+.hashtag{
+    background: #EFFBFF;
+    padding: 4rem 0rem;
+    margin: 5rem;
+}
+.topHashtag{
+    text-align: center;
+}
+.topHashtag h2{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #034D82;
+}
+.topHashtag p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+color: #8EA9C1;
+}
+.cardwrap{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.card{
+    background: #FFFFFF;
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: 8px;
+    height: 300px;
+}
+.card h5{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 34px;
+color: #034D82;
+padding: 1rem 0rem;
+}
+.card p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8EA9C1;
+
+}
+
+.brand{
+    background-image: url(/IMAGES/Mask\ Group.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 4rem;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.brandButton{
+margin-top: 10rem;
+margin: auto;
+background: #FFFFFF;
+padding: 1rem;
+color: #04AADD;
+width:15%
+border-radius: 5px
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.83px;   
+}
+
+.brandLeft h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #FFFFFF;
+    width: 50%;   
+}
+.brandLeft p{
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 32px;
+color: #FFFFFF;
+padding: 1rem;
+
+}
+footer{
+    background: #081315;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 3rem 0;
+}
+/* .footLogo{
+    wi
+} */
+.footWrap{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+.footRight{
+    display: flex;
+    gap: 4rem;
+    width: 60%;
+}
+.footLeft{
+    width: 30%;
+}
+li{
+list-style-type: none;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+color: #D3D6D8;
+margin-bottom: 1rem;
+}
+.footRight h4{
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23.44px;
+color: #FFFFFF;
+margin-bottom: 1.5rem;
+}
+.footLeft p{
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: #D3D6D8;
+padding: 1rem 0;
+width: 68%;
+}
+.copyright{
+    text-align: center;
+    margin-top: 4rem;
+}
+.copyright p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.83px;
+color: #FFFFFF;
+margin-top: 1rem;
+
+}
